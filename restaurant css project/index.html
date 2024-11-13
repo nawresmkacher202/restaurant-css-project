@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landing Page</title>
+   
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+     
+        .hero-section {
+            background-image: url('C:/Users/SJ-INFO/Pictures/Saved Pictures/restaurant-names-thumbnail.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+        }
+    </style>
+    <link rel="icon" href="C:/Users/SJ-INFO/Pictures/Saved Pictures/gettyimages-1403973419-170667a.jpg" type="Image/x-ico " sizes="16*16">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Delish Dinner</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="hero-section">
+        <h1>Welcome to Our Restaurant</h1>
+        
+        <p>Experience the finest dining</p>
+        <a href="#menu" class="btn btn-warning btn-lg">View Menu</a>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="container py-5">
+        <h2 class="text-center mb-4">Our Menu</h2>
+        <div class="row">
+            <div class="col-md-4 menu-item">
+                <img src="C:/Users/SJ-INFO/Pictures/Thai-curry-noodle-soup-72b3f36.jpg" alt="Chicken souvlaki with tzatziki sauce">
+                <h4>Chicken souvlaki with tzatziki sauce</h4>
+                <p>Chicken souvlaki skewers are marinated Greek kabobs. Fantastic flavor for chicken. The marinade can also be used for pork.</p>
+                <p><strong>$20</strong></p>
+            </div>
+            <div class="col-md-4 menu-item">
+                <img src="C:/Users/SJ-INFO/Pictures/square-chilli-con-carne-4-2.jpg" alt="Dish 2">
+                <h4>mexican chilli con carne</h4>
+                <p>You call it Chili, we call it Chilli Con Carne. Whatever you know this as, the alluring smell of a pot of Chilli bubbles away on the stove is a universal language!! Whip it this up as a quick meal, though if you have time to slow cook you’ll be rewarded with ultra tender beef and an extra luscious sauce.</p>
+                <p><strong>$25</strong></p>
+            </div>
+            <div class="col-md-4 menu-item">
+                <img src="C:/Users/SJ-INFO/Pictures/SwedishMeatballs_12.jpg" alt="Swedish meatballs">
+                <h4>Swedish meatballs</h4>
+                <p>These heavenly Swedish Meatballs are a homemade version of the iconic Ikea meatballs. They’re a whole lot easier than assembling flat-pack furniture, that’s for sure! Extra-soft and juicy, with a dash of classic spices like allspice, they’re smothered with the bread-mop-worthy sauce.</p>
+                <p><strong>$18</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="C:/Users/SJ-INFO/Pictures/gettyimages-1768616641-612x612.jpg" alt="Restaurant Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>We are a family-owned restaurant offering a variety of delicious dishes. Our commitment is to provide quality food with a warm and welcoming atmosphere.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="welcome to our family"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Delish Dinner. All rights reserved.</p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </footer>
+
+</body>
+</html>
+
+   

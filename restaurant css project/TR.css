@@ -1,0 +1,42 @@
+li {
+  display: inline;
+}
+
+h1 {
+  color: rgb(229, 52, 182);
+  text-align: center;
+  text-decoration-line: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: rgb(227, 87, 147);
+  text-decoration-line: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+body {
+  background-image: url("C:/Users/SJ-INFO/Pictures/Screenshots/22006232-voyage-abstrait-contexte-avec-transport-et-la-nature-voyage-toile-de-fond-generatif-ai-photo.jpeg");
+}
+.nav {
+  justify-content: right;
+}
+ul {
+  text-align: right;
+}
+.nav {
+  color: beige;
+  justify-content: left;
+}
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.hero-section{
+  background-image:url("C:/Users/SJ-INFO/Pictures/Saved Pictures/restaurant-names-thumbnail.jpg");
+
+}
